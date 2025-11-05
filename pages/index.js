@@ -10,10 +10,11 @@ export default function Home() {
       </Head>
 
       <main className="min-h-screen bg-gray-50 flex flex-col">
+
         {/* Hero Section */}
         <section className="bg-white w-full py-12">
           <div className="container mx-auto px-4 sm:px-6 lg:px-24 flex flex-col-reverse md:flex-row items-center">
-            
+
             {/* Text Content */}
             <div className="w-full md:w-1/2 text-center md:text-left mt-6 md:mt-0">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
@@ -29,20 +30,15 @@ export default function Home() {
                 href="https://wa.me/237677431399"
                 className="mt-6 inline-block px-6 py-3 bg-green-600 text-white rounded-lg font-semibold text-lg hover:bg-green-700 transition"
               >
-                Contact on WhatsApp
+                Contact on WhatsApp for more information
               </a>
-
-              {/* Payment Info */}
-              <p className="mt-4 text-gray-500">
-                Payment via <strong>MoMo</strong> for now. Card payments coming soon.
-              </p>
             </div>
 
             {/* Hero Image */}
             <div className="w-full md:w-1/2 flex justify-center md:justify-end">
               <img
-                src="https://images.unsplash.com/photo-1581091870624-6d30b54c5a2f?auto=format&fit=crop&w=400&q=80"
-                alt="Student on laptop"
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+                alt="Teacher instructing students in group learning"
                 className="w-3/4 md:w-full h-auto rounded-lg shadow-lg"
               />
             </div>
@@ -62,10 +58,10 @@ export default function Home() {
         {/* Features Section */}
         <section className="py-12 bg-gray-50">
           <div className="container mx-auto px-4 sm:px-6 lg:px-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            
+
             <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
               <img
-                src="https://images.unsplash.com/photo-1581092337204-232f771b8cf8?auto=format&fit=crop&w=400&q=80"
+                src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=400&q=80"
                 alt="IB English"
                 className="w-full h-48 object-cover rounded mb-4"
               />
@@ -75,7 +71,7 @@ export default function Home() {
 
             <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
               <img
-                src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=400&q=80"
+                src="https://images.unsplash.com/photo-1555685812-4b943f1d0e27?auto=format&fit=crop&w=400&q=80"
                 alt="IGCSE ESL"
                 className="w-full h-48 object-cover rounded mb-4"
               />
@@ -85,14 +81,29 @@ export default function Home() {
 
             <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
               <img
-                src="https://images.unsplash.com/photo-1584697964199-3991be41d1e2?auto=format&fit=crop&w=400&q=80"
+                src="https://images.unsplash.com/photo-1596496058580-013c7c3b0ff7?auto=format&fit=crop&w=400&q=80"
                 alt="Online Learning"
                 className="w-full h-48 object-cover rounded mb-4"
               />
               <h2 className="font-bold text-xl mb-2">Flexible Online Learning</h2>
-              <p>Classes via Zoom or Google Classroom with MoMo payment options.</p>
+              <p>Classes via Zoom or Google Classroom. Contact via WhatsApp for more information.</p>
             </div>
 
+          </div>
+        </section>
+
+        {/* Instructor Section */}
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-24 text-center">
+            <h2 className="text-3xl font-bold mb-4">Meet the Instructor</h2>
+            <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+              Boma Mercy, an experienced IB and IGCSE teacher with 10+ years of experience, is dedicated to helping students achieve their dream results.
+            </p>
+            <img
+              src="/images/instructor.jpeg"
+              alt="Instructor Boma Mercy"
+              className="w-3/4 md:w-1/4 mx-auto h-auto rounded-full shadow-lg"
+            />
           </div>
         </section>
 
